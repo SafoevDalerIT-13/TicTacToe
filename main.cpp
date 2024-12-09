@@ -4,7 +4,8 @@
  
 using namespace std; 
  
-int main() { 
+int main() {
+ setlocale(LC_ALL,"RU");
     vector<vector<char>> board(3, vector<char>(3, ' ')); 
     char currentPlayer = 'X'; 
     int moves = 0; 
